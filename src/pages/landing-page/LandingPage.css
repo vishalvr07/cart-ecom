@@ -1,0 +1,41 @@
+.landing-page-category {
+  margin: 2rem 3rem 2rem 3rem;
+  background: #fff;
+  padding: 0 20px 0 20px;
+  box-shadow: 0px 3px 42px -1px rgba(136, 136, 136, 0.66);
+}
+
+.landing-page-heading {
+  padding: 20px 20px 10px 20px;
+  width: fit-content;
+}
+
+.treding-section{
+  width: 80%;
+  margin: auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page-category {
+    padding: 0 10px 0 10px;
+    margin: 2rem 1rem 2rem 1rem;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .Landing__page {
+    overflow-x: hidden;
+  }
+}
+
+.cards-home{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  gap: 32;
+  margin-top: 70px;
+}
+
+.cards{
+border-color:rgba(136, 136, 136, 0.66);
+}
+
